@@ -1,9 +1,60 @@
 h1{
-    color : red;
+    color : white;
     font-size: 30px;
+    font-family: 'Viga', sans-serif;
+    text-shadow:2px 1px black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box{
+    margin : 170px auto;
+}
+.navbar {
+    background: none;
+}
+p {
+    color: aliceblue;
 }
 .cok {
     width: 200;
     height: 200;
     background-color:  blue;
+}
+.navbar .navbar-brand {
+    color : white;
+}
+.nav-link:active{
+    color : red !important;
+}
+nav .navbar-nav li a{
+    color: white !important;
+    }
+
+.jumbotron{
+    background-image: url('./2448.jpg');
+    background-size: cover;
+    height: 700px;
+    margin-top: -100px;
+}
+.icon {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    height: auto;
+ 
+    /* border : 2px solid black;
+    border-radius: 20px; */
+}
+.icon img{
+    position: relative;
+    padding-left: 20px;
+}
+.icon .icon1{
+    width: 250;
+    height: 200;
+    /* background-color: whited;
+    opacity: 0.7; */
 }
